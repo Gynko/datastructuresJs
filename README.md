@@ -1,3 +1,20 @@
-# 1. Data Structures and algorithms in JS
+# Data Structures and algorithms in JS <!-- omit in toc -->
 
-first commit
+# Table of content <!-- omit in toc -->
+
+- [1. Big O](#1-big-o)
+- [2. Arrays](#2-arrays)
+- [Big O](#big-o)
+
+## 1. Big O
+
+## 2. Arrays
+
+Stored in order. Smallest footprint.
+
+## Big O
+
+1. lookup: O(1)
+2. push: O(1)
+3. insert: O(n)
+4. delete: O(n)
