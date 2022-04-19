@@ -31,8 +31,9 @@ var groceries = ["apples", "bananas", "cucumbers", "potatoes"];
 
 If we were on a 32 bit system, that translates into 4 shelves of 8 bits, which translates in 4\*4 = 16 bytes of storage
 
-| 0   | 00000000 |
+|     |          |
 | --- | -------- |
+| 0   | 00000000 |
 | 1   | 00000000 |
 | 2   | 00000000 |
 | 3   | 00000001 |
