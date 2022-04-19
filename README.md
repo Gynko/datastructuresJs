@@ -34,7 +34,7 @@ If we were on a 32 bit system, that translates into 4 shelves of 8 bits, which t
 | 0 | 00000000 |
 | 1 | 00000000 |
 | 2 | 00000000 |
-| 3 | 00000001 | <----- size of a "shelf" in a 32 bits system
+| 3 | 00000001 |
 | 4 | 00000000 |
 | 5 | 00000000 |
 | 6 | 00000000 |
