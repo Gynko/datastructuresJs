@@ -3,11 +3,14 @@
 # Table of content <!-- omit in toc -->
 
 - [1. Big O](#1-big-o)
+- [Memory](#memory)
 - [2. Arrays](#2-arrays)
   - [Big O](#big-o)
-  - [Memory](#memory)
+  - [Memory](#memory-1)
 
 ## 1. Big O
+
+## Memory
 
 ## 2. Arrays
 
@@ -27,3 +30,12 @@ var groceries = ["apples", "bananas", "cucumbers", "potatoes"];
 ```
 
 If we were on a 32 bit system, that translates into 4 shelves of 8 bits, which translates in 4\*4 = 16 bytes of storage
+
+| 0 | 00000000 |
+| 1 | 00000000 |
+| 2 | 00000000 |
+| 3 | 00000001 | <----- size of a "shelf" in a 32 bits system
+| 4 | 00000000 |
+| 5 | 00000000 |
+| 6 | 00000000 |
+| 7 | 00000111 |
